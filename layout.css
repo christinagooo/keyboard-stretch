@@ -1,0 +1,45 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: green;
+}
+
+#text {
+    color: white;
+    transform-origin: left;
+    font-size: 100px;
+    /* font-family: "Free Monospaced"; */
+}
+
+@font-face {
+    font-family: "Free Monospaced";
+    src: url("https://db.onlinewebfonts.com/t/0f9a396f91b5cb0fe6bd1b0cf27eaa7f.eot");
+    src: url("https://db.onlinewebfonts.com/t/0f9a396f91b5cb0fe6bd1b0cf27eaa7f.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/0f9a396f91b5cb0fe6bd1b0cf27eaa7f.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/0f9a396f91b5cb0fe6bd1b0cf27eaa7f.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/0f9a396f91b5cb0fe6bd1b0cf27eaa7f.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/0f9a396f91b5cb0fe6bd1b0cf27eaa7f.svg#Free Monospaced")format("svg");
+}
+
+@font-face {
+    font-family: "Hardpixel";
+    src: url("https://db.onlinewebfonts.com/t/46ed1daa8d58529ffb76987f884f2b03.eot");
+    src: url("https://db.onlinewebfonts.com/t/46ed1daa8d58529ffb76987f884f2b03.eot?#iefix")format("embedded-opentype"),
+        url("https://db.onlinewebfonts.com/t/46ed1daa8d58529ffb76987f884f2b03.woff2")format("woff2"),
+        url("https://db.onlinewebfonts.com/t/46ed1daa8d58529ffb76987f884f2b03.woff")format("woff"),
+        url("https://db.onlinewebfonts.com/t/46ed1daa8d58529ffb76987f884f2b03.ttf")format("truetype"),
+        url("https://db.onlinewebfonts.com/t/46ed1daa8d58529ffb76987f884f2b03.svg#Hardpixel")format("svg");
+}
+
+@font-face {
+    font-family: "Terminal Day";
+    src: url("https://db.onlinewebfonts.com/t/f60bb37eaf50de4e4910d47156d91ef8.eot");
+    src: url("https://db.onlinewebfonts.com/t/f60bb37eaf50de4e4910d47156d91ef8.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/f60bb37eaf50de4e4910d47156d91ef8.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/f60bb37eaf50de4e4910d47156d91ef8.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/f60bb37eaf50de4e4910d47156d91ef8.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/f60bb37eaf50de4e4910d47156d91ef8.svg#Terminal Day")format("svg");
+}

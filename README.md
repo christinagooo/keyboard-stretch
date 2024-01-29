@@ -1,0 +1,1 @@
+This website displays keyboard input on the screen like a regular text editor (only supports Alphabets). If you long-press on the keys, it will stretch out the keys.
